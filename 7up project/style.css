@@ -1,0 +1,441 @@
+*{
+    font-family: 'Playfair Display', sans-serif;
+    margin:0; padding:0;
+    box-sizing: border-box;
+    outline: none; 
+    border:none;
+    text-decoration: none;
+    transition: all .2s linear;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    scroll-padding-top: 6rem;
+}
+
+ .product{
+    padding-bottom:  1rem;
+    padding-top: 10px;
+    padding-right: 5rem;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    background-color: #009e5f;
+    
+     /* all part cover  mana scoll korla heading part thakba */
+     position: static;
+     top:0;
+     z-index: 1000;
+     left:0;
+ }
+.product a{
+    font-size: 1.5rem;
+    color: white;
+    margin-left: 2.5rem;
+    text-transform: capitalize; 
+    font-weight: bold;
+    display: flex;
+    position: relative;
+}
+
+.layout{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    display: flex;
+   
+}
+.layout-left{
+      
+      height: 80%;
+      width: 33%;
+    background-image: url(imges/7up.jpg);
+    background-position: center;
+    
+  background-repeat: no-repeat;
+    background-size: 108%;
+    position: relative;
+}
+.layout-left h2{
+      padding-top:51rem;
+      font-size: 31px;
+      padding-right: 14rem;
+      padding-left: 11rem;
+     
+      position: absolute;
+      color:#009e5f ;
+      text-wrap: nowrap;
+}
+.explore-text{
+    /* padding-top:-210rem;
+    */
+    font-size: 31px;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    margin: 580px 97px 1px ;
+    position: absolute;
+    color:#009e5f ;
+       border: solid  #009e5f ;
+    text-wrap: nowrap;
+    
+}
+.explore-text:hover{
+    background-color: greenyellow;
+}
+.layout-right{
+    
+    width: 68%;
+    height: 100%;
+    background-color: chartreuse;
+    
+    
+}
+
+
+.bottom-layout{
+     padding-top: 2rem;
+     padding-bottom: 2rem;
+     height: 169%;
+     width: 100%;
+     background-color: #009e5f;
+     display: flex;
+     position: relative;
+}
+
+.bottom-layout .second-text {
+    padding-top: 30rem;
+    padding-right: 4rem;
+    padding-left: 4rem;
+    height: 0%;
+    width: 89%;
+    display: inline;
+    font-size: 33px;
+    color: white;
+    position: relative;
+   
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.bottom-layout .can-img{
+    padding-top: 10rem;
+    padding-right: 4rem;
+    padding-left: 3rem;
+    height: 0%;
+    width: 89%;
+    display: inline;
+    font-size: 33px;
+    color: white;
+ 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.bottom-layout .second-text h1{
+    padding: 1px 50px;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    text-wrap: nowrap;
+}
+.bottom-layout .second-text p{
+    padding: 99px 58px;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    text-wrap: nowrap;
+   
+}
+.bottom-layout .explore-two{
+    padding: 2rem 4rem;
+    height: 5%;
+    width: 16%;
+    background-color: white;
+    margin: 530px 113px;
+    position: absolute;
+}
+.bottom-layout .explore-two h1{
+     font-size: 24px;
+     text-wrap: nowrap;
+     color: #009e5f;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.explore-two h1:hover{
+    background-color: green;
+   
+}
+.section2{
+    width: 1536px;
+    height: 1138px;
+    background-image: url(imges/module_cocktail.jpg);
+    background-repeat: no-repeat;
+    margin-top: 1px;
+    display: flex;
+    justify-content: center;
+}
+
+.section2 button{
+    width: 424px;
+    height: 101px;
+    background: #fe5887;
+    color: #fff;
+    font-size: 20px;
+    letter-spacing: -1px;
+    border: #fe5887;
+    margin-top: 500px;
+}
+.section2 button:hover{
+    background-color: purple;
+}
+.section3{
+    width: 1536px;
+    height: 1000px;
+    background-image: url(imges/module_cooking.jpg);
+    background-repeat: no-repeat;
+    margin-top: -53px;
+    display: flex;
+    justify-content: center;
+}
+
+.section3 button{
+    width: 424px;
+    height: 101px;
+    background: #6ba13f;
+    color: #fff;
+    font-size: 20px;
+    letter-spacing: -1px;
+    border: #fe5887;
+    margin-top: 430px;
+}
+.section3 button:hover{
+    background-color :chocolate;
+}
+.section4{
+    width: 1536px;
+    height: 1000px;
+    background-image: url(imges/module_seeall.jpg);
+    background-repeat: no-repeat;
+    margin-top: -53px;
+    display: flex;
+    justify-content: center;
+}
+.section4 button{
+    width: 424px;
+    height: 101px;
+    background: #c064ac;
+    color: #fff;
+    font-size: 20px;
+    letter-spacing: -1px;
+    border: #fe5887;
+    margin-top: 430px;
+}
+.section4 button:hover{
+    background-color :rgb(239, 87, 113);
+}
+.product-part{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    position: relative;
+    background-color: aquamarine;
+}
+.product-part .product-left{
+    height: 100%;
+    width: 55%;
+    display: flex;
+    position: absolute;
+    background-color: white;
+}
+.product-part .product-right{
+    height: 100%;
+    width: 53%;
+    display: flex;
+    right: 0rem;
+    left: 73rem;
+    position: absolute;
+    background-color: #d8d8d8;
+}
+.product-left .img-1{
+    height: 46%;
+    width: 21%;
+    display: flex;
+    top: 19rem;
+    bottom: 3rem;
+    right: 7rem;
+    left: 87em;
+    position: absolute;
+}
+
+.product-left .img-2{
+    height: 66%;
+    width: 33%;
+    display: flex;
+    top: 12rem;
+    bottom: 3rem;
+    right: 0rem;
+    left: 38em;
+    position: absolute;
+}
+.product-left .img-3{
+    height: 46%;
+    width: 21%;
+    display: flex;
+    top: 20rem;
+    bottom: 3rem;
+    right: 7rem;
+    left: 5em;
+    position: absolute;
+
+}
+
+.product-left .img-4{
+    height: 11%;
+    width: 40%;
+    display: flex;
+    top: 60rem;
+    bottom: 18rem;
+    right: 8rem;
+    left: 33em;
+    position: absolute;
+}
+.product-right img{
+    height: 23%;
+    width: 14%;
+    display: flex;
+    top: 19rem;
+    bottom: 25rem;
+    right: 8rem;
+    left: 10em;
+    position: absolute;
+}
+.product-right h1{
+    width: 64%;
+    height: 51%;
+    font-size: 51px;
+    font-family: "Nobel", Helvetica, Arial, sans-serif;
+    color: #818182;
+    padding-top: 220px;
+    padding-left: 192px;
+    display: block;
+    position: inherit;
+}
+/* .product-right button{
+    margin-left: 100px;
+    width: 305px;
+    height: 50px;
+  
+    
+
+    font-size: 2px;
+    letter-spacing: 86px;
+  
+    margin-top: 503px;
+}
+.product-right button h2{
+    color: black;
+} */
+.product-right .product-text{
+    width: 50%;
+    height: 50%;
+    font-size: 12px;
+    font-family: "Nobel", Helvetica, Arial, sans-serif;
+    color: #818182;
+    padding-top: 435px;
+    padding-left: 40px;
+    display: flex;
+    position: absolute;
+
+}
+.product-right h2{
+    width: 50%;
+    height: 50%;
+    font-size: 38px;
+    font-family: "Nobel", Helvetica, Arial, sans-serif;
+    color: #818182;
+    padding-top: 385px;
+    padding-left: 35px;
+    text-wrap: nowrap;
+    display: flex;
+    position: absolute;
+}
+
+
+
+
+
+.footer{
+    width: 100%;
+    display:flex;
+    flex-direction: row;
+    height: 579px
+
+    
+    
+}
+.footer-img{
+    width: 100%;
+    height: 773px;
+
+}
+.enjoy{
+    
+    margin-top: 394px;
+    margin-left: -523px;
+    font-size: 53px;
+    font-weight: 800;
+    color: #fff;
+    background-color: #d71e05;
+    width: fit-content;
+    letter-spacing: 1px;
+    padding: 15px;
+}
+.enjoy:hover{
+    background-color: green;
+}
+
+.footer-social{
+    height: 124px;
+    margin-left: -1214px;
+    margin-top: 117px;
+    margin-right: auto;
+    padding: 15px;
+    max-width: 1068px;
+    text-align: center;
+    background-color: rgba(255,255,255,.75);
+    cursor: pointer
+    
+    
+
+}
+.text a{
+    padding: 0 18px;
+    color: #858585;
+}
+
+
+.text{
+    cursor: pointer;
+    font: 400 20px/1.2 "Nobel",Helvetica,Arial,sa
+}
+.footer .footer-social .icon a {
+    
+    line-height: 4.5rem;
+    border-radius: 50%;
+    font-size: 1.8rem;
+    /* background-color: #858585; */
+    color: #858585;
+    margin-right: 4.3rem;
+    text-align: center;
+  }
+  
+@media(max-width:410px) {
+     .layout{
+        height: 99%;
+        width: 309%;
+        background-color: white;
+        display: flex;
+    }
+}
+
+
+
